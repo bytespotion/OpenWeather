@@ -19,7 +19,17 @@
 		B4ECE74015FE66DB00DD118E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ECE72015FE66DB00DD118E /* UIKit.framework */; };
 		B4ECE74115FE66DB00DD118E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ECE72215FE66DB00DD118E /* Foundation.framework */; };
 		B4ECE74915FE66DB00DD118E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4ECE74715FE66DB00DD118E /* InfoPlist.strings */; };
-		B4ECE74C15FE66DB00DD118E /* OpenWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE74B15FE66DB00DD118E /* OpenWeatherTests.m */; };
+		B4ECE75815FE6A9600DD118E /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE75715FE6A9600DD118E /* WeatherTests.m */; };
+		B4ECE75E15FE78F600DD118E /* weatherImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ECE75D15FE78F600DD118E /* weatherImage.png */; };
+		B4ECE76115FE7AC600DD118E /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE76015FE7AC600DD118E /* Weather.m */; };
+		B4ECE76415FFCD3C00DD118E /* CityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE76315FFCD3C00DD118E /* CityTests.m */; };
+		B4ECE76715FFD2C300DD118E /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE76615FFD2C300DD118E /* City.m */; };
+		B4ECE76A15FFEA4400DD118E /* WeatherManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE76915FFEA4400DD118E /* WeatherManagerTests.m */; };
+		B4ECE76C15FFEBAF00DD118E /* weatherResponse.xml in Resources */ = {isa = PBXBuildFile; fileRef = B4ECE76B15FFEBAF00DD118E /* weatherResponse.xml */; };
+		B4ECE77015FFF32600DD118E /* WeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE76F15FFF32600DD118E /* WeatherManager.m */; };
+		B4ECE77415FFF75800DD118E /* WeatherConnectionMockUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE77315FFF75800DD118E /* WeatherConnectionMockUp.m */; };
+		B4ECE7771601398200DD118E /* WeatherImageConnectionMockup.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE7761601398200DD118E /* WeatherImageConnectionMockup.m */; };
+		B4ECE77D16013F9B00DD118E /* WeatherImageConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ECE77C16013F9B00DD118E /* WeatherImageConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +60,25 @@
 		B4ECE73E15FE66DB00DD118E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B4ECE74615FE66DB00DD118E /* OpenWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		B4ECE74815FE66DB00DD118E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B4ECE74A15FE66DB00DD118E /* OpenWeatherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenWeatherTests.h; sourceTree = "<group>"; };
-		B4ECE74B15FE66DB00DD118E /* OpenWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWeatherTests.m; sourceTree = "<group>"; };
+		B4ECE75715FE6A9600DD118E /* WeatherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
+		B4ECE75D15FE78F600DD118E /* weatherImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weatherImage.png; path = extras/weatherImage.png; sourceTree = "<group>"; };
+		B4ECE75F15FE7AC600DD118E /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		B4ECE76015FE7AC600DD118E /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		B4ECE76315FFCD3C00DD118E /* CityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTests.m; sourceTree = "<group>"; };
+		B4ECE76515FFD2C300DD118E /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		B4ECE76615FFD2C300DD118E /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		B4ECE76915FFEA4400DD118E /* WeatherManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherManagerTests.m; sourceTree = "<group>"; };
+		B4ECE76B15FFEBAF00DD118E /* weatherResponse.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = weatherResponse.xml; path = extras/weatherResponse.xml; sourceTree = "<group>"; };
+		B4ECE76E15FFF32600DD118E /* WeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherManager.h; sourceTree = "<group>"; };
+		B4ECE76F15FFF32600DD118E /* WeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherManager.m; sourceTree = "<group>"; };
+		B4ECE77115FFF51A00DD118E /* WeatherConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherConnectionDelegate.h; sourceTree = "<group>"; };
+		B4ECE77215FFF75800DD118E /* WeatherConnectionMockUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherConnectionMockUp.h; sourceTree = "<group>"; };
+		B4ECE77315FFF75800DD118E /* WeatherConnectionMockUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherConnectionMockUp.m; sourceTree = "<group>"; };
+		B4ECE7751601398200DD118E /* WeatherImageConnectionMockup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherImageConnectionMockup.h; sourceTree = "<group>"; };
+		B4ECE7761601398200DD118E /* WeatherImageConnectionMockup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherImageConnectionMockup.m; sourceTree = "<group>"; };
+		B4ECE77A16013AF500DD118E /* WeatherImageConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherImageConnectionDelegate.h; sourceTree = "<group>"; };
+		B4ECE77B16013F9B00DD118E /* WeatherImageConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherImageConnection.h; sourceTree = "<group>"; };
+		B4ECE77C16013F9B00DD118E /* WeatherImageConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherImageConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +138,7 @@
 		B4ECE72615FE66DB00DD118E /* OpenWeather */ = {
 			isa = PBXGroup;
 			children = (
+				B4ECE75515FE68E900DD118E /* Model */,
 				B4ECE72F15FE66DB00DD118E /* AppDelegate.h */,
 				B4ECE73015FE66DB00DD118E /* AppDelegate.m */,
 				B4ECE73215FE66DB00DD118E /* ViewController.h */,
@@ -135,9 +163,11 @@
 		B4ECE74415FE66DB00DD118E /* OpenWeatherTests */ = {
 			isa = PBXGroup;
 			children = (
-				B4ECE74A15FE66DB00DD118E /* OpenWeatherTests.h */,
-				B4ECE74B15FE66DB00DD118E /* OpenWeatherTests.m */,
+				B4ECE76D15FFF10200DD118E /* Mocks */,
 				B4ECE74515FE66DB00DD118E /* Supporting Files */,
+				B4ECE75715FE6A9600DD118E /* WeatherTests.m */,
+				B4ECE76315FFCD3C00DD118E /* CityTests.m */,
+				B4ECE76915FFEA4400DD118E /* WeatherManagerTests.m */,
 			);
 			path = OpenWeatherTests;
 			sourceTree = "<group>";
@@ -145,10 +175,41 @@
 		B4ECE74515FE66DB00DD118E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4ECE76B15FFEBAF00DD118E /* weatherResponse.xml */,
+				B4ECE75D15FE78F600DD118E /* weatherImage.png */,
 				B4ECE74615FE66DB00DD118E /* OpenWeatherTests-Info.plist */,
 				B4ECE74715FE66DB00DD118E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4ECE75515FE68E900DD118E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4ECE75F15FE7AC600DD118E /* Weather.h */,
+				B4ECE76015FE7AC600DD118E /* Weather.m */,
+				B4ECE76515FFD2C300DD118E /* City.h */,
+				B4ECE76615FFD2C300DD118E /* City.m */,
+				B4ECE76E15FFF32600DD118E /* WeatherManager.h */,
+				B4ECE76F15FFF32600DD118E /* WeatherManager.m */,
+				B4ECE77115FFF51A00DD118E /* WeatherConnectionDelegate.h */,
+				B4ECE77A16013AF500DD118E /* WeatherImageConnectionDelegate.h */,
+				B4ECE77B16013F9B00DD118E /* WeatherImageConnection.h */,
+				B4ECE77C16013F9B00DD118E /* WeatherImageConnection.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4ECE76D15FFF10200DD118E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B4ECE77215FFF75800DD118E /* WeatherConnectionMockUp.h */,
+				B4ECE77315FFF75800DD118E /* WeatherConnectionMockUp.m */,
+				B4ECE7751601398200DD118E /* WeatherImageConnectionMockup.h */,
+				B4ECE7761601398200DD118E /* WeatherImageConnectionMockup.m */,
+			);
+			name = Mocks;
+			path = mockups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4ECE74915FE66DB00DD118E /* InfoPlist.strings in Resources */,
+				B4ECE75E15FE78F600DD118E /* weatherImage.png in Resources */,
+				B4ECE76C15FFEBAF00DD118E /* weatherResponse.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +324,10 @@
 				B4ECE72D15FE66DB00DD118E /* main.m in Sources */,
 				B4ECE73115FE66DB00DD118E /* AppDelegate.m in Sources */,
 				B4ECE73415FE66DB00DD118E /* ViewController.m in Sources */,
+				B4ECE76115FE7AC600DD118E /* Weather.m in Sources */,
+				B4ECE76715FFD2C300DD118E /* City.m in Sources */,
+				B4ECE77015FFF32600DD118E /* WeatherManager.m in Sources */,
+				B4ECE77D16013F9B00DD118E /* WeatherImageConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +335,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4ECE74C15FE66DB00DD118E /* OpenWeatherTests.m in Sources */,
+				B4ECE75815FE6A9600DD118E /* WeatherTests.m in Sources */,
+				B4ECE76415FFCD3C00DD118E /* CityTests.m in Sources */,
+				B4ECE76A15FFEA4400DD118E /* WeatherManagerTests.m in Sources */,
+				B4ECE77415FFF75800DD118E /* WeatherConnectionMockUp.m in Sources */,
+				B4ECE7771601398200DD118E /* WeatherImageConnectionMockup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
